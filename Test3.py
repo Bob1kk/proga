@@ -14,7 +14,7 @@ from docx import Document
 import io
 
 # Настройка OpenAI
-api_key = "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"
+api_key = "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"
 model = "openrouter/bert-nebulon-alpha"
 
 client = OpenAI(
@@ -327,4 +327,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
